@@ -13,7 +13,7 @@ int main(){
         cin>>n>>m;
         vector<int>a(m);
         for(int i=0;i<m;i++){
-            cin>>a[m];
+            cin>>a[i];
         }
         sort(a.begin(),a.end());
         for(int i=0;i<n;i++){
