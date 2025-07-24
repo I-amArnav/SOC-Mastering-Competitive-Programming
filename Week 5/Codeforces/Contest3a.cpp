@@ -13,6 +13,14 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        
+        int k,q,n,mini=1000;
+        cin>>k>>q;
+        vector<int>a(k);
+        fori(k){cin>>a[i];mini=min(mini,a[i]);}
+        fori(q){
+            cin>>n;
+            cout<<min(n,mini-1)<<" ";
+        }
+        cout<<'\n';
     }
 }

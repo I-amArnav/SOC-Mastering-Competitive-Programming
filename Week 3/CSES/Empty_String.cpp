@@ -5,7 +5,7 @@ typedef long long ll;
 #define forj(n) for(int j = 0; j < n; ++j)
 const int mod = 1e9+7;
 
-//INCOMPLETE!!!!!!!!!!!!!!!! Sometimes I think I am not good at anything.... seriously.
+//INCOMPLETE!!!!!!!!!!!!!!!!
 
 int main(){
     string s;cin>>s;

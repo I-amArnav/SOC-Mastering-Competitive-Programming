@@ -13,6 +13,15 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        
+        int n,mini=1e9+1;cin>>n;
+        vector<int>a(n);
+        fori(n){
+            cin>>a[i];
+            mini=min(mini,a[i]);
+        }
+        if(a[0]==mini){
+            cout<<"Bob";
+        }else{cout<<"Alice";}
+        cout<<'\n';
     }
 }
